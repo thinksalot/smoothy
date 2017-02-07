@@ -1,5 +1,13 @@
 ;(function($, window){
 
+  /**
+   * Smoothy: a very tiny smooth scroll plugin
+   *
+   * Author: Aalok Thapa
+   * Repo: https://github.com/thinksalot/smoothy.js
+   * License: MIT License 
+   */
+
   var defaults = {
 
     // whether to scroll to elements based on hash
