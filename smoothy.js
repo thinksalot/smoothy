@@ -32,8 +32,8 @@
     init: function(){
 
       var p = this,
-      o = p.options
-        ;
+        o = p.options
+      ;
 
       if( o.onLoad ){
         p.scrollByHash();
@@ -49,9 +49,9 @@
     scrollByHash: function(){
 
       var p = this,
-      o = p.options,
-      hash = window.location.hash
-        ;
+        o = p.options,
+        hash = window.location.hash
+      ;
 
       if( !hash.length ) return;
 
@@ -76,10 +76,10 @@
     scrollByClick: function( $trigger, e ){
 
       var p = this,
-      o = p.options,
-      hash = $trigger.attr('data-href'),
-      $target = p._getById( hash )
-        ;
+        o = p.options,
+        hash = $trigger.attr('data-href'),
+        $target = p._getById( hash )
+      ;
 
       if( !$target.length ) return;
 
@@ -95,8 +95,8 @@
     scrollTo: function( $target ){
 
       var p = this,
-      o = p.options
-        ;
+        o = p.options
+      ;
 
       if( !$target.length ) return;
 
@@ -111,8 +111,8 @@
   $.fn.smoothy = function( options ){
 
     var smoothy = new Smoothy( this, options ),
-    $html = $('html')
-      ;
+      $html = $('html')
+    ;
 
     if( !$.data( $html, 'smoothy-loaded' ) ){
       $.data( $html, 'smoothy-loaded', smoothy );
