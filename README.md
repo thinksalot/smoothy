@@ -33,4 +33,4 @@ beforeScroll: function( scrollType, trigger ){}
 ```
 
 ## License
-Open source under the MIT License. © 2017 Aalok Thapa
+Open source under the MIT License. © 2017
